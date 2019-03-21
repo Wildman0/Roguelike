@@ -25,12 +25,6 @@
     <Filter Include="Source Files\Tile">
       <UniqueIdentifier>{a5f87aa6-1aa9-47ef-8e22-d87758d0603e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Behaviour">
-      <UniqueIdentifier>{e2f1375b-8b59-454c-a741-080f0828e3ea}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Behaviour">
-      <UniqueIdentifier>{c218b2e7-4a7e-4a8b-bc64-83bef1e99456}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\AI">
       <UniqueIdentifier>{67152af7-7ac7-492a-9d0d-7447affa29f2}</UniqueIdentifier>
     </Filter>
@@ -51,84 +45,9 @@
     <ClCompile Include="Game.cpp">
       <Filter>Source Files\Main</Filter>
     </ClCompile>
-    <ClCompile Include="Tile.cpp">
-      <Filter>Source Files\Tile</Filter>
-    </ClCompile>
-    <ClCompile Include="TileManager.cpp">
-      <Filter>Source Files\Tile</Filter>
-    </ClCompile>
-    <ClCompile Include="BehaviourBaseTest.cpp">
-      <Filter>Source Files\Behaviour</Filter>
-    </ClCompile>
-    <ClCompile Include="BehaviourHandler.cpp">
-      <Filter>Source Files\Behaviour</Filter>
-    </ClCompile>
-    <ClCompile Include="IBaseBehaviour.cpp">
-      <Filter>Source Files\Behaviour</Filter>
-    </ClCompile>
-    <ClCompile Include="Pawn.cpp">
-      <Filter>Source Files\AI</Filter>
-    </ClCompile>
-    <ClCompile Include="Job.cpp">
-      <Filter>Source Files\AI</Filter>
-    </ClCompile>
-    <ClCompile Include="Character.cpp">
-      <Filter>Source Files\AI</Filter>
-    </ClCompile>
-    <ClCompile Include="TileRenderer.cpp">
-      <Filter>Source Files\Render</Filter>
-    </ClCompile>
-    <ClCompile Include="CharacterRenderer.cpp">
-      <Filter>Source Files\Render</Filter>
-    </ClCompile>
-    <ClCompile Include="CharacterManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
-      <Filter>Header Files\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="TileManager.h">
-      <Filter>Header Files\Tile</Filter>
-    </ClInclude>
-    <ClInclude Include="Tile.h">
-      <Filter>Header Files\Tile</Filter>
-    </ClInclude>
-    <ClInclude Include="TileType.h">
-      <Filter>Header Files\Tile</Filter>
-    </ClInclude>
-    <ClInclude Include="BehaviourBaseTest.h">
-      <Filter>Header Files\Behaviour</Filter>
-    </ClInclude>
-    <ClInclude Include="BehaviourHandler.h">
-      <Filter>Header Files\Behaviour</Filter>
-    </ClInclude>
-    <ClInclude Include="IBaseBehaviour.h">
-      <Filter>Header Files\Behaviour</Filter>
-    </ClInclude>
-    <ClInclude Include="Behaviour.h">
-      <Filter>Header Files\Behaviour</Filter>
-    </ClInclude>
-    <ClInclude Include="Pawn.h">
-      <Filter>Header Files\AI</Filter>
-    </ClInclude>
-    <ClInclude Include="Job.h">
-      <Filter>Header Files\AI</Filter>
-    </ClInclude>
-    <ClInclude Include="Character.h">
-      <Filter>Header Files\AI</Filter>
-    </ClInclude>
-    <ClInclude Include="TileRenderer.h">
-      <Filter>Header Files\Render</Filter>
-    </ClInclude>
-    <ClInclude Include="CharacterRenderer.h">
-      <Filter>Header Files\Render</Filter>
-    </ClInclude>
-    <ClInclude Include="CharacterManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CurrentGame.h">
       <Filter>Header Files\Main</Filter>
     </ClInclude>
   </ItemGroup>
